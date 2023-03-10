@@ -19,7 +19,7 @@ const Home = () => {
           {
             filteredProducts.map(product => {
               return <div className='w-full h-[300px] bg-pink-200 mb-4' key={product.id}> 
-                {product.title}
+                {product.title f}
               </div>
             })
           }
